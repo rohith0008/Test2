@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--Basic login form-->
-    <form id="login-form" post="">
+    <form id="login-form" action="">
         <!--label element-->
         <label for="username">Username:</label>
         <!--Input(text) element-->
@@ -78,8 +78,10 @@
         <option value="blue">Blue</option>
         <option value="green">Green</option>
     </select>
-      
+
+    <!--Multiple Checkbox elements-->
     <form>
+        <!--heading tag-->
         <h2>Select your favorite programming languages:</h2>
         <input type="checkbox" id="javascript" name="language">
         <label for="javascript">JavaScript</label><br>
@@ -92,9 +94,30 @@
       
         <input type="checkbox" id="c++" name="language">
         <label for="c++">C++</label><br>
-      
+        <!--button element-->
         <button type="submit">Submit</button>
     </form>
+      
+    <!--Creating a form using multiple radio buttons-->
+    <form>
+        <h2>feedback Form</h2>
+        <input type="radio" id="rating1" name="rating" value="1">
+        <label for="rating1">1</label><br>
+      
+        <input type="radio" id="rating2" name="rating" value="2">
+        <label for="rating2">2</label><br>
+      
+        <input type="radio" id="rating3" name="rating" value="3">
+        <label for="rating3">3</label><br>
+      
+        <input type="radio" id="rating4" name="rating" value="4">
+        <label for="rating4">4</label><br>
+      
+        <input type="radio" id="rating5" name="rating" value="5">
+        <label for="rating5">5</label><br>
+      
+        <button type="submit">Submit</button>
+      </form>
       
       
 </body>
